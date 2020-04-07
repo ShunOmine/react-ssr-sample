@@ -13,5 +13,6 @@ export const ssr = () => (`
         ${renderToString(<CountUp />)}
       </div>
     </body>
+    <script src="./client.js"></script>
   </html>
 `);
