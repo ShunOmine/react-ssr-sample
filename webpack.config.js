@@ -1,3 +1,4 @@
+// @ts-ignore
 const path = require('path');
 
 module.exports = {
@@ -28,6 +29,14 @@ module.exports = {
                     corejs: 3,
                   },
                 ],
+                [
+                  '@babel/preset-react',
+                  {
+                    useBuiltIns: 'usage',
+                    corejs: 3,
+                  },
+                ],
+                '@babel/preset-typescript',
               ],
             },
           },

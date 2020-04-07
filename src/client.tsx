@@ -4,5 +4,5 @@ import { CountUp } from './CountUp';
 
 hydrate(
   <CountUp />,
-  document.getElementById('app')
+  document.getElementById('app'),
 );

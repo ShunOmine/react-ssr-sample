@@ -62,7 +62,7 @@ var CountUp = function CountUp() {
     onClick: function onClick() {
       return setCount(count + 1);
     }
-  }, "+"), /*#__PURE__*/_react["default"].createElement("p", null, new Date().toTimeString()));
+  }, "+"));
 };
 
 exports.CountUp = CountUp;
